@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Curiomundo — Descubre algo que no sabías que querías saber</title>
+    <meta
+      name="description"
+      content="La biblioteca infinita de curiosidades en español: historia, ciencia, espacio, misterios y mucho más. Entras por una curiosidad y acabas descubriendo diez."
+    />
+    <meta name="theme-color" content="#0d1526" />
+    <meta property="og:site_name" content="Curiomundo" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Curiomundo — Descubre algo que no sabías que querías saber" />
+    <meta
+      property="og:description"
+      content="La biblioteca infinita de curiosidades en español. Entras por una curiosidad y acabas descubriendo diez."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <!-- Tema antes de pintar: evita el destello blanco -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('cm:tema');
+          if (t !== 'light' && t !== 'dark') {
+            t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          }
+          if (t === 'dark') document.documentElement.classList.add('dark');
+        } catch (e) {}
+      })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Spline+Sans+Mono:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      Curiomundo necesita JavaScript para funcionar. Actívalo para descubrir curiosidades.
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
