@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Curiomundo</title>
+    <link>https://curiomundo.com/</link>
+    <atom:link href="https://curiomundo.com/rss.xml" rel="self" type="application/rss+xml" />
+    <description>La biblioteca infinita de curiosidades en español. Entras por una curiosidad y acabas descubriendo diez.</description>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 04 Feb 2026 12:00:00 +0100</lastBuildDate>
+    <item>
+      <title>El corazón de una ballena azul late tan despacio que un humano podría nadar por sus arterias</title>
+      <link>https://curiomundo.com/#/curiosidad/el-corazon-de-una-ballena-azul</link>
+      <guid isPermaLink="false">curiomundo-el-corazon-de-una-ballena-azul</guid>
+      <description>Su aorta tiene el diámetro de un plato grande y en una inmersión profunda su pulso cae hasta 2 latidos por minuto.</description>
+      <pubDate>Wed, 28 Jan 2026 12:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Por qué el cielo es azul (y no del color del Sol)</title>
+      <link>https://curiomundo.com/#/curiosidad/por-que-el-cielo-es-azul</link>
+      <guid isPermaLink="false">curiomundo-por-que-el-cielo-es-azul</guid>
+      <description>Si el Sol emite luz blanca, ¿por qué el cielo no es blanco? La respuesta está en la dispersión de Rayleigh.</description>
+      <pubDate>Tue, 20 Jan 2026 12:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>El hormigón romano se repara solo cuando se agrieta</title>
+      <link>https://curiomundo.com/#/curiosidad/el-hormigon-que-se-repara-solo</link>
+      <guid isPermaLink="false">curiomundo-el-hormigon-que-se-repara-solo</guid>
+      <description>Los romanos mezclaban cal viva en caliente. Cuando aparece una grieta, el agua la activa y el material se cura a sí mismo.</description>
+      <pubDate>Wed, 14 Jan 2026 12:00:00 +0100</pubDate>
+    </item>
+  </channel>
+</rss>

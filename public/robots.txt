@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# La búsqueda interna genera URLs sin valor SEO
+Disallow: /#buscar
+Disallow: /#/buscar
+
+Sitemap: https://curiomundo.com/sitemap.xml

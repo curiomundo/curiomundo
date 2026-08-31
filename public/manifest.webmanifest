@@ -1,0 +1,19 @@
+{
+  "name": "Curiomundo",
+  "short_name": "Curiomundo",
+  "description": "La biblioteca infinita de curiosidades en español.",
+  "lang": "es-ES",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070b16",
+  "theme_color": "#0d1526",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

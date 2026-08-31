@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Curiomundo es una SPA con rutas por hash: el punto de entrada indexable
+     es la URL base. Los rastreadores que ejecutan JavaScript descubren el
+     contenido completo desde ahí (metadatos por ruta incluidos). -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://curiomundo.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
